@@ -1,0 +1,15 @@
+Theme:
+# Cookie clicker
+
+Resource:
+* Cookie
+
+Generator:
+* Cursor
+* Grandmon
+* Cookie Factory
+
+Story:
+* Cookie? click on the cookie to make cookies.
+* Cookies are sweet to enjoy.
+* Cookie is for everyone.
