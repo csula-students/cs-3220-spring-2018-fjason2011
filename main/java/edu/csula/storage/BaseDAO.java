@@ -1,4 +1,4 @@
-package edu.csula.storage;
+package main.java.edu.csula.storage;
 
 /**
  * BaseDAO defines the common need of abstracting out the storage option from the

@@ -1,13 +1,12 @@
-package edu.csula.storage.servlet;
-
+package main.java.edu.csula.storage.servlet;
 import java.util.Collection;
 import java.util.ArrayList;
 import java.util.Optional;
 
 import javax.servlet.ServletContext;
 
-import edu.csula.storage.GeneratorsDAO;
-import edu.csula.models.Generator;
+import main.java.edu.csula.storage.GeneratorsDAO;
+import main.java.edu.csula.models.Generator;
 
 /**
  * To abstract the storage access from the business layer using ServletContext

@@ -1,4 +1,4 @@
-package edu.csula.storage.servlet;
+package main.java.edu.csula.storage.servlet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Optional;
 
 import javax.servlet.ServletContext;
 
-import edu.csula.storage.EventsDAO;
-import edu.csula.models.Event;
+import main.java.edu.csula.storage.EventsDAO;
+import main.java.edu.csula.models.Event;
 
 /**
  * To abstract the storage access from the business layer using ServletContext
@@ -94,7 +94,10 @@ public class EventsDAOImpl implements EventsDAO {
 				events.remove(i);
 			}
 		}
-	}
+		
+	
 
 	this.context.setAttribute(CONTEXT_NAME,events);
+
+	}
 }

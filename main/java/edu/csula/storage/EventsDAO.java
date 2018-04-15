@@ -1,9 +1,9 @@
-package edu.csula.storage;
+package main.java.edu.csula.storage;
 
 import java.util.List;
 import java.util.Optional;
 
-import edu.csula.models.Event;
+import main.java.edu.csula.models.Event;
 
 /**
  * EventsDAO defines the database access layer between the business layer and

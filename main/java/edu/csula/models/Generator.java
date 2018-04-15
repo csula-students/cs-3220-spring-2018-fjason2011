@@ -1,4 +1,4 @@
-package edu.csula.models;
+package main.java.edu.csula.models;
 
 public class Generator {
 	private final int id;

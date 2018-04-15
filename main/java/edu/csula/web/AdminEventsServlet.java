@@ -1,4 +1,4 @@
-package edu.csula.web;
+package main.java.edu.csula.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,9 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import edu.csula.storage.servlet.EventsDAOImpl;
-import edu.csula.storage.EventsDAO;
-import edu.csula.models.Event;
+import main.java.edu.csula.models.Event;
+import main.java.edu.csula.storage.EventsDAO;
+import main.java.edu.csula.storage.servlet.EventsDAOImpl;
+
 
 @WebServlet("/admin/events")
 public class AdminEventsServlet extends HttpServlet {
@@ -23,7 +24,7 @@ public class AdminEventsServlet extends HttpServlet {
 
 		// TODO: render the events page HTML
 		EventsDAO dao = new EventsDAOImpl(getServletContext());
-		Collection<Event> events = dao.getAll();
+		Collection<main.java.edu.csula.models.Event> events = dao.getAll();
 		System.out.println(events);
 
 		out.println("<!DOCTYPE html>");
@@ -78,7 +79,7 @@ public class AdminEventsServlet extends HttpServlet {
 		out.println("</body>");
 		out.println("</html>");
 	}
-	}
+	
 
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

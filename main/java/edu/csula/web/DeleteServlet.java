@@ -1,4 +1,4 @@
-package edu.csula.web;
+package main.java.edu.csula.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import edu.csula.storage.servlet.EventsDAOImpl;
-import edu.csula.storage.EventsDAO;
-import edu.csula.models.Event;
+import main.java.edu.csula.storage.servlet.EventsDAOImpl;
+import main.java.edu.csula.storage.EventsDAO;
+import main.java.edu.csula.models.Event;
 
 @WebServlet("/admin/DeleteServlet")
 public class DeleteServlet extends HttpServlet {
