@@ -1,0 +1,33 @@
+nav{
+    display: inline;
+    margin: 15px;
+}
+
+button{
+    position: absolute;
+    float: right;
+    right: 35px;
+    border-radius: 3px;
+    width: 11px;
+    border: 1.5px solid black;
+    padding: 12px 20px;
+    margin:20px 0;
+}
+
+form{
+    position: relative;
+}
+
+table{
+    position: absolute;
+    text-align: right;
+    right: 2px;
+    top: 5px;
+    border-collapse: collapse;
+    width: 45%;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
