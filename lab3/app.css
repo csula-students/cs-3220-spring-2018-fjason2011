@@ -1,0 +1,67 @@
+.story {
+	color: white;
+	background: black;
+	margin: 20px;
+	overflow: auto
+}
+
+p{
+	margin-left: 10px;
+}
+
+.cCry{
+	padding-left: 50px;
+	font-size:16px;
+	flex: 2;
+
+}
+
+.click{
+	border-radius: 10px;
+
+}
+
+.box{
+	border: 2px solid black;
+	margin: 20px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width: 300px;
+	padding-top: 10px;
+	flex: 3;
+
+}
+
+.gFlex{
+	display: flex;
+}
+
+.bBot{
+	flex:3;
+	float: right;
+}
+
+.container{
+	display: flex;
+}
+
+h2{
+	float: left;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h6{
+	font-size: 10px;
+	margin-right: 200px;
+}
+
+button{
+	float: right;
+	margin-right: 10px;
+}
+
+
